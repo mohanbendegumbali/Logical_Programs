@@ -9,8 +9,10 @@ namespace Demo
         public static void Main(string[] args) 
         {
             Console.WriteLine(" Welcome");
-            FibonacciSeries fib = new FibonacciSeries();
-            fib.Print(5);
+            //FibonacciSeries fib = new FibonacciSeries();
+            //fib.Print(5);
+            PerfectNumber perfect = new PerfectNumber();
+            perfect.check(28);
         }
     }
 }
