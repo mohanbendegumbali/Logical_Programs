@@ -11,8 +11,10 @@ namespace Demo
             Console.WriteLine(" Welcome");
             //FibonacciSeries fib = new FibonacciSeries();
             //fib.Print(5);
-            PerfectNumber perfect = new PerfectNumber();
-            perfect.check(28);
+            //PerfectNumber perfect = new PerfectNumber();
+            //perfect.check(28);
+            PrimeNumber prime = new PrimeNumber();
+            prime.check(5);
         }
     }
 }
