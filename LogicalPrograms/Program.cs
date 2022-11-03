@@ -15,8 +15,9 @@ namespace Demo
             //perfect.check(28);
             //PrimeNumber prime = new PrimeNumber();
             //prime.check(5);
-            ReverseNumber num = new ReverseNumber();
-            num.reverse(345);
+            //ReverseNumber num = new ReverseNumber();
+            //num.reverse(345);
+            CouponNumber.Generatecoupons(10);
         }
     }
 }
