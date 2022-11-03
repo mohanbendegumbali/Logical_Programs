@@ -8,7 +8,7 @@ namespace Demo
         int a = 10;
         public static void Main(string[] args) 
         {
-            Console.WriteLine(" Welcome");
+            Console.WriteLine(" Welcome to Logical Programs ");
             //FibonacciSeries fib = new FibonacciSeries();
             //fib.Print(5);
             //PerfectNumber perfect = new PerfectNumber();
