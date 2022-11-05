@@ -17,7 +17,9 @@ namespace Demo
             //prime.check(5);
             //ReverseNumber num = new ReverseNumber();
             //num.reverse(345);
-            CouponNumber.Generatecoupons(10);
+            //CouponNumber.Generatecoupons(10);
+            StopWatch stop = new StopWatch();
+            stop.Start();
         }
     }
 }
