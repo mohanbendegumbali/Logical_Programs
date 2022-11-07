@@ -12,7 +12,7 @@ namespace Demo
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Fibonacci Series" + "\n" + "2.Perfect Number" + "\n" + "3.Prime Number" + "\n" + "4.Reverse Number" + "\n" + "5.Coupon Number" + "\n" + "6.Stop Watch" + "\n" + "7.Vending Machine" + "\n" + "8.Day of Week" + "\n" + "9.Temperature Conversion");
+                Console.WriteLine("1.Fibonacci Series" + "\n" + "2.Perfect Number" + "\n" + "3.Prime Number" + "\n" + "4.Reverse Number" + "\n" + "5.Coupon Number" + "\n" + "6.Stop Watch" + "\n" + "7.Vending Machine" + "\n" + "8.Day of Week" + "\n" + "9.Temperature Conversion" + "\n" + "10.Monthly Payment");
                 Console.WriteLine(" Enter the option ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -52,6 +52,10 @@ namespace Demo
                     case 9:
                         TemperatureConversion temp = new TemperatureConversion();
                         temp.Conversion();
+                        break;
+                    case 10:
+                        MonthPayment month = new MonthPayment();
+                        month.Payment();
                         break;
 
 
