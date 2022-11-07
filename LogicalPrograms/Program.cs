@@ -12,7 +12,7 @@ namespace Demo
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Fibonacci Series" + "\n" + "2.Perfect Number" + "\n" + "3.Prime Number" + "\n" + "4.Reverse Number" + "\n" + "5.Coupon Number" + "\n" + "6.Stop Watch" + "\n" + "7.Vending Machine" + "\n" + "8.Day of Week");
+                Console.WriteLine("1.Fibonacci Series" + "\n" + "2.Perfect Number" + "\n" + "3.Prime Number" + "\n" + "4.Reverse Number" + "\n" + "5.Coupon Number" + "\n" + "6.Stop Watch" + "\n" + "7.Vending Machine" + "\n" + "8.Day of Week" + "\n" + "9.Temperature Conversion");
                 Console.WriteLine(" Enter the option ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -46,12 +46,14 @@ namespace Demo
                         machine.Print();
                         break;
                     case 8:
-                        //DayOfWeek day = new DayOfWeek();
-                        //day.Weekday();
-                        Dayofweek2 dayofweek2 = new Dayofweek2();
+                        Dayofweek dayofweek2 = new Dayofweek();
                         dayofweek2.Weekday();
                         break;
-                        
+                    case 9:
+                        TemperatureConversion temp = new TemperatureConversion();
+                        temp.Conversion();
+                        break;
+
 
                 }
             }

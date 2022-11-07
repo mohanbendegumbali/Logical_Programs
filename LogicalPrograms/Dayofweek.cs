@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
-    public class Dayofweek2
+    public class Dayofweek
     {
         public void Weekday()
         {
